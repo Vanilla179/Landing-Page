@@ -19,9 +19,10 @@ body {
 ul {
   display: flex;
   gap: 15px;
-  color: #f9faf8;
+  color: #e5e7eb;
   margin: 0px;
   padding: 0px;
+  font-size: 18px;
 }
 
 a {
@@ -31,4 +32,47 @@ a {
 
 li {
   list-style: none;
+}
+
+.hero {
+  display: flex;
+  background: #1f2937;
+  padding: 45px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 5px;
+  width: 20%;
+  margin-bottom: 10px;
+  border: black 2px;
+}
+
+.text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+.container {
+  width: 400px;
+  height: auto;
+  margin-right: 50px;
 }
