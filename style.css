@@ -43,6 +43,18 @@ li {
   flex-direction: row-reverse;
 }
 
+.info {
+  display: flex;
+  padding: 45px;
+}
+
+h2 {
+  justify-content: center;
+  display: flex;
+  font: 800;
+  font-size: 32px;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -55,7 +67,7 @@ h1 {
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 5px;
   width: 20%;
   margin-bottom: 10px;
@@ -68,9 +80,21 @@ h1 {
   margin-bottom: 10px;
 }
 
-img {
+.cat {
   width: 500px;
   height: auto;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border: 5px solid #555;
+}
+
+.info-img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .container {
   width: 400px;
