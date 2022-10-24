@@ -97,6 +97,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
 .container {
   width: 400px;
@@ -107,4 +108,24 @@ img {
 .tex {
   max-width: 200px;
   text-align: center;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.thor {
+  display: flex;
+  justify-content: end;
+  font-size: 18px;
+  font-weight: 800;
 }
