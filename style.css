@@ -43,16 +43,17 @@ li {
   flex-direction: row-reverse;
 }
 
-.info {
-  display: flex;
-  padding: 45px;
+.InfoContainer {
+  padding: 20px;
 }
 
 h2 {
   justify-content: center;
-  display: flex;
   font: 800;
   font-size: 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
 }
 
 h1 {
@@ -95,7 +96,7 @@ img {
 .info-img {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 .container {
   width: 400px;
