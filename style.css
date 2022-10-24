@@ -64,6 +64,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+h3 {
+  margin: 2px;
+}
+
 .button {
   background-color: #3882f6;
   color: #f9faf8;
@@ -128,4 +132,41 @@ img {
   justify-content: end;
   font-size: 18px;
   font-weight: 800;
+}
+
+.call-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.call-container-inside {
+  background-color: #3882f6;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50%;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-up-text {
+  margin: 2px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0px;
+  color: #e5e7eb;
+}
+
+.button-call {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
