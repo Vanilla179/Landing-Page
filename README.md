@@ -1,2 +1,2 @@
 # Landing-Page
-[Landing Page](https://vanilla179.github.io/Landing-Page/)
+[Demo](https://vanilla179.github.io/Landing-Page/)
